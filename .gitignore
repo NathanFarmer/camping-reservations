@@ -218,4 +218,4 @@ __marimo__/
 .streamlit/secrets.toml
 
 # this project
-campsite-data.json
+campsite_data.json
