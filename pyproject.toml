@@ -1,0 +1,20 @@
+[project]
+name = "camping-reservations"
+version = "0.1.0"
+description = "Recreation.gov campsite reservation finder with TUI"
+requires-python = ">=3.10"
+dependencies = [
+    "httpx>=0.27.0",
+    "rich>=13.7.0",
+    "textual>=0.47.1",
+    "pydantic>=2.6.0",
+    "python-dateutil>=2.8.2",
+    "orjson>=3.9.12",
+]
+
+[project.scripts]
+campsite-finder = "app:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
